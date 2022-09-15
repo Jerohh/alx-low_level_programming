@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-
 /**
  * main - Print in C
  * Description: Prints "Programming is like building a multilingual puzzle"
