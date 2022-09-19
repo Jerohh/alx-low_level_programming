@@ -8,8 +8,11 @@
  * Return: nothing
 */
 
-void rev_string(char *s){
+void rev_string(char *s)
+{
+
 	int i, tmp, len = _strlen(s);
+
 	for (i = 0; i < len / 2; i++)
 	{
 		tmp = *(s + i);
@@ -34,3 +37,4 @@ int _strlen(char *s)
 
 	return (len);
 }
+
