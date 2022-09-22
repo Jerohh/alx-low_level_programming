@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  *_strcat - concatenates the string pointed to by @src to
  * the end of the string pointed to by @dest
@@ -21,4 +20,5 @@ char *_strcat(char *dest, char *src)
 		dest[dest_len++] = src[index];
 
 	return (dest);
+
 }
