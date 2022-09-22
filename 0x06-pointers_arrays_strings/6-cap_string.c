@@ -6,7 +6,6 @@
  *
  * Return: address of s
  */
-
 char *cap_string(char *s)
 {
 	int i = 0, j;
@@ -29,5 +28,5 @@ char *cap_string(char *s)
 			}
 			i++;
 		}
-		return (s);
+	return (s);
 }
