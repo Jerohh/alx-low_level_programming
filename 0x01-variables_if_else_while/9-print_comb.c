@@ -8,7 +8,7 @@
 int main(void)
 {
 	int num;
-	int letter;
+	char letter;
 
 	for (num = 0; num < 10; num++)
 		putchar((num % 10) + '0');
@@ -18,5 +18,7 @@ int main(void)
 
 	putchar('\n');
 
-}	return (0);
+	return (0);
+
+}
 
