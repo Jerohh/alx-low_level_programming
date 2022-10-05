@@ -4,7 +4,7 @@
  * create_array _ creates an array of chars, and
  * initializes it with a specific char.
  *@size: size of the array
- *@c: character to insert
+ *@c: character to be inserted
  *Return: NULL if size is zero or if it fails,
  *pointer to array if everything is normal.
  */
@@ -12,7 +12,7 @@
 char *create_array(unsigned int size, char c)
 {
 	char *array;
-	unsigned int index;
+	unsigned int b;
 
 	if (size == 0)
 		return (NULL);
@@ -21,8 +21,8 @@ char *create_array(unsigned int size, char c)
 	if (array == NULL)
 		return (NULL);
 
-	for (index = 0; index < size; index++;
-		array[index] = c;
+	for (b = 0; b < size; b++)
+		array[b] = c;
 
 	return (array);
 }
