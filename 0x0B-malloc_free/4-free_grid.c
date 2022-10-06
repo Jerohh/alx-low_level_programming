@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * free_grid - frees a 2d array
- * @grid:memory block to be freed
- * @grid:memory block to be freed
- * @height:height of the array
- * Return:returns void
+ * free_grid - frees a 2D grid created in alloc_grid.
+ * @grid:pointer to pointer.
+ * @height:height of grid.
+ * Return:void.
  */
 
 void free_grid(int **grid, int height)
