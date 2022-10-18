@@ -1,11 +1,6 @@
-#ifndef OBJECT_LIKE_MACRO_H
-#define OBJECT_LIKE_MACRO_H
-
-/**
- * LAGOS, NIGERIA
- * Auth:Jerry Ifeanyichukwu
- */
+#ifndef _0_OBJECT_LIKE_MACRO_H_
+#define _0_OBJECT_LIKE_MACRO_H_
 
 #define SIZE 1024
 
-#endif
+#endif /* _0_OBJECT_LIKE_MACRO_H_ */
